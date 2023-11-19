@@ -1,0 +1,67 @@
+.contact{
+    display:flex;
+    flex-direction: column;
+    }
+   
+    .contain{
+        display:flex;
+        flex-direction:row;
+        background-color:rgb(15, 15, 15);
+    align-items: center;
+    color:silver;
+    font-family: puffin;
+    font-size:32px;
+    height:20vh;
+    justify-content:space-between;
+
+   
+        
+    }
+    .policy{
+        color:silver;
+       
+    }
+    .policy:hover{
+        font-family: sans-serif;
+        text-decoration: underline;
+        cursor: pointer;
+    }
+    .circle{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        float: left;
+        
+    }
+    .about{
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        float: left;
+        text-decoration: none;
+        color:silver;
+      
+        
+    }
+    .about:hover{
+        text-decoration: underline;
+        cursor: pointer;
+    }
+    .propo{
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        float: left;
+        text-decoration: none;
+        color:silver;
+    }
+    .propo:hover{
+        text-decoration: underline;
+        cursor: pointer;
+
+    }
+    .icons{
+        display:flex;
+        justify-content: space-between;
+        gap:25px;
+    }

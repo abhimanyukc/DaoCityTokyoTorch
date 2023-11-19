@@ -1,0 +1,27 @@
+.middle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    background-color: rgb(34, 29, 29);
+    
+}
+.images{
+    display:flex;
+  
+   justify-content: center;
+   align-items: center;
+   size: 50px;
+}
+.tourch{
+    font-family:puffin;
+    font-size: 100px;
+    
+    width:50%;
+    color:silver;
+   
+}
+.images img{
+    width:300%;
+    max-height:100%;
+}
